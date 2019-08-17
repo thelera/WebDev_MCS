@@ -1,20 +1,26 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Lora|Noto+Sans&display=swap');
 
-.header {
+.text-font1 {
+	font-family: 'Noto Sans', sans-serif;
+}
+.text-font2 {
+	font-family: 'Lora', serif;
+}
+.box {
 	background-color: #E0E4E3;
 	width: 100%;
+}
+.header {
 	height: 100px;
 }
-.header-content h1 {
-	/*font-family: 'Lora', serif;*/
-	font-family: 'Noto Sans', sans-serif;
+.header__title {
 	font-size: 20px;
 	text-transform: uppercase;
 	line-height: 100px;
 	padding-left: 10px;
 }
-.image {
+.main-content__image {
 	background-image: url("../img/main_image.jpeg");
 	height: 300px;
 	background-size: cover;
@@ -22,40 +28,33 @@
 	/*background-attachment: fixed;*/
 }
 .menu {
-	background-color: #E0E4E3;
-	width: 100%;
 	height: 60px;
 	color: black;
-	padding-left: 10px;
 }
 .menu__item {
 	width: 150px;
-	margin-right: 15px;
-	font-family: 'Noto Sans', sans-serif;
+	padding-left: 10px;
+	margin-right: 10px;
 	font-size: 15px;
 	text-transform: uppercase;
 	line-height: 60px;
 	display: inline;
-	color: black;
 }
 .links {
 	color: black;
 	text-decoration: none;
 } 
 .text-section__heading {
-	font-family: 'Noto Sans', sans-serif;
 	font-size: 20px;
 	margin-left: 10px;
 	line-height: 60px;
 }
 .text-section__parahraph {
-	font-family: 'Lora', serif;
 	font-size: 16px;
 	margin-left: 10px;
 	line-height: 20px;
 }
 .text-section__list {
-	font-family: 'Lora', serif;
 	font-size: 16px;
 	margin-left: 25px;
 	line-height: 20px;
@@ -64,18 +63,12 @@
 }
 .footer {
 	margin-top: 25px;
-	background-color: #E0E4E3;
-	width: 100%;
 	height: 100px;
 }
 .footer-content h1 {
-	font-family: 'Noto Sans', sans-serif;
 	font-size: 15px;
 	text-transform: uppercase;
 	line-height: 100px;
 	padding-left: 10px;
-}
-ul {
-	list-style-type: circle;
 }
 
