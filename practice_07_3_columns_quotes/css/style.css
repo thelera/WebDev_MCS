@@ -3,6 +3,12 @@
 body {
 	font-family: sans-serif;
 }
+.page {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: space-between;
+}
 .header {
 	background-color: lightblue;
 	padding-left: 50px;
@@ -14,10 +20,9 @@ body {
 	text-transform: uppercase;
 	color: white;
 }
-.content {
-
-}
 .columns {
+	height: 80vh;
+	box-sizing: border-box;
 	padding: 5% 0;
 	width: 80vw;
 	min-height: 500px;
@@ -30,7 +35,7 @@ body {
 	border-radius: 2%;
 	width: calc((100% - 50px)/3);
 	padding: 15px;
-	overflow: auto;
+	overflow: hidden;
 	box-sizing: border-box;
 }
 .image1 {
@@ -56,6 +61,7 @@ body {
 	font-size: 20px;
 	font-weight: bold;
 	padding: 10px 0;
+	overflow: hidden;
 }
 .copyright {
 	background-color: lightblue;
