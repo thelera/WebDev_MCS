@@ -6,8 +6,11 @@ body {
 .page {
 	display: flex;
 	flex-direction: column;
+	/*justify-content: space-between;*/
 	height: 100vh;
-	justify-content: space-between;
+}
+.header-footer-container {
+	flex: 1 0 auto;
 }
 .header {
 	background-color: lightblue;
@@ -21,11 +24,11 @@ body {
 	color: white;
 }
 .columns {
-	height: 80vh;
-	box-sizing: border-box;
+	/*height: 80vh;
+	box-sizing: border-box;*/
 	padding: 5% 0;
 	width: 80vw;
-	min-height: 500px;
+	/*min-height: 500px;*/
 	display: flex;
 	justify-content: space-between;
 	margin: auto;
@@ -64,6 +67,7 @@ body {
 	overflow: hidden;
 }
 .copyright {
+	flex: 0 0 auto;
 	background-color: lightblue;
 	padding-left: 50px;
 	height: 10vh;
