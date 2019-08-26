@@ -1,0 +1,70 @@
+@import url(reset.css);
+
+body {
+	font-family: sans-serif;
+}
+.header {
+	background-color: lightblue;
+	padding-left: 50px;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+}
+.title {
+	text-transform: uppercase;
+	color: white;
+}
+.content {
+
+}
+.columns {
+	padding: 5% 0;
+	width: 80vw;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.column {
+	border: 1px solid lightgray;
+	border-radius: 2%;
+	width: calc((100% - 50px)/3);
+	padding: 15px;
+	overflow: auto;
+	box-sizing: border-box;
+}
+.image1 {
+	background-image: url("../img/tesla.jpg");	
+	background-size: cover;
+	background-position: center;
+	padding-top: 100%;
+	box-sizing: border-box;
+}
+.image2 {
+	background-image: url("../img/landau.jpg");	
+	background-size: cover;
+	background-position: 35% 50%;
+	padding-top: 100%;
+}
+.image3 {
+	background-image: url("../img/enshtein.jpg");	
+	background-size: cover;
+	background-position: center;
+	padding-top: 100%;
+}
+.name {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+.copyright {
+	background-color: lightblue;
+	padding-left: 50px;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+}
+.text {
+	text-transform: uppercase;
+	color: white;
+}
