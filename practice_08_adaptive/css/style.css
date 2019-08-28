@@ -3,7 +3,7 @@
 .page {
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	/*height: 100vh;*/
 	justify-content: space-between;
 	font-family: sans-serif;
 }
@@ -20,17 +20,17 @@
 }
 .content-container {
 	width: 80vw;
-	height: 80vh;
+	/*height: 80vh;*/
 	margin: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 5% 0;
+	padding: 5% 0 0 0;
 	box-sizing: border-box;
 }
 .column {
 	/*width: calc((100% - 30px)/2);*/
-	height: calc((100% - 30px)/2);
+	/*height: calc((100% - 30px)/2);*/
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -40,8 +40,9 @@
 	border-radius: 10px;
 	padding: 25px 15px;
 	box-sizing: border-box;
-	height: calc((100% - 30px)/2);
+	/*height: calc((100% - 30px)/2);*/
 	overflow: auto;
+	margin-bottom: 15px;
 }
 .section__title {
 	font-size: 20px;
@@ -56,14 +57,16 @@
 }
 
 @media screen and (min-width: 376px) {
-	.column {
+	/*.column {
 		flex-direction: row;
 		height: calc((100% - 30px)/2);
-		/*width: calc((100% - 30px)/2);*/
 		box-sizing: border-box;
+	}*/
+	.content-container {
+		flex-direction: row;
 	}
-	.section {
-		height: 100%;
+	.column {
 		width: calc((100% - 30px)/2);
+		justify-content: flex-start;
 	}
 }
