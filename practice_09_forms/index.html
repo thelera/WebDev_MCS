@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Boilerplate</title>
+    <meta charset="utf-8">
+    <meta description="boilerplate code">
+    <meta keywords="boilerplate, test">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<div class="page-container">
+		<form method="POST" action="http://free.allforms.mailjol.net/u/b437e8b5.php">
+			<div class="form__title">
+				<h1>Contact form</h1>
+			</div>
+			<div class="form__description">
+				<p>Please fill in your information and we'll be sending your order in no time.</p>
+			</div>
+			<div class="form__row">
+				<div class="form__legend"><label for="name">Your Name</label></div>
+				<div class="form__element"><input type="text" name="name" placeholder="Kevin Brown" autofocus=""></div>
+			</div>
+			<div class="form__row">
+				<div class="form__legend"><label for="email">Your Email</label></div>
+				<div class="form__element"><input type="email" name="email" placeholder="yo@example.com"></div>
+			</div>
+			<div class="form__row">
+				<div class="form__legend"><label for="phone">Phone*</label></div>
+				<div class="form__element"><input type="tel" name="phone" placeholder="+79999999" required></div>
+			</div>
+			<div class="form__row">
+				<div class="form__legend"><label for="subject">Message subject*</label></div>
+				<div class="form__element form__element-select">
+					<select name="subject" required>
+						<option value="other">Other</option>
+						<option value="subject1">Subject1</option>
+						<option value="subject2">Subject2</option>
+						<option value="subject3">Subject3</option>
+						<option value="subject4">Subject4</option>
+					</select>
+				</div>
+			</div>
+			<div class="form__row form__row-textarea">
+				<div class="form__legend"><label for="message">Message*</label></div>
+				<div class="form__element"><textarea name="message" required></textarea></div>
+			</div>
+			<div class="form__row form__row-agreement">
+				<div class="form__legend"><label for="agreement">Agreement*</label></div>
+				<div class="form__element"><label class="checkbox-label"><input type="checkbox" name="agreement" checked="true" required><span class="checkmark"></span>Agree with rules of confidence</label>
+				</div>
+			</div>
+			<hr>
+			<input type="submit" name="" value="Submit form">
+		</form>	
+		</div>
+	</div>
+</body>
+</html>
