@@ -1,0 +1,30 @@
+@import url(reset.css);
+/* одна правая колонка - фиксированного размера, 
+а левая резиновая и занимает свю оставшуюся ширину окна */
+.columns1 {
+	min-height: 500px;
+	border: 1px solid black;
+	display: flex;
+}
+.column.two {
+	width: 240px;
+	height: 720px;
+	background-color: red;
+}
+.column.one {
+	width: calc(100% - 240px);
+	height: 720px;
+	background-color: orange;
+}
+/* все колонки резиновые, а расстояния между ними одинаковые */
+.columns2 {
+	height: 500px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+.column1 {
+	width: calc((100% - 80px)/3);/* отступы между колонками 40px */
+	height: 100px;
+	border: 1px solid red;
+}

@@ -1,0 +1,18 @@
+.linear {
+	width: 300px;
+	height: 200px;
+	background-image: linear-gradient(to right bottom, yellow 20%, blue 50%, green);
+}
+.radial {
+	width: 500px;
+	height: 500px;
+	background-image: radial-gradient(black 10%, red 30%);
+}
+.shadow {
+	width: 300px;
+	height: 500px;
+	box-shadow: 50px 50px 10px 40px grey;
+	border-radius: 5px;
+	border: 2px solid black;
+	text-decoration: 
+}

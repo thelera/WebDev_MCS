@@ -1,0 +1,21 @@
+@import url(reset.css);
+
+html {
+	font-size: 30px;
+}
+}
+.outer {
+	font-size: 20px;
+}
+/* em - доля от размера шрифта родителя */
+.outer h1 {
+	font-size: 2em;
+}
+/* rem - root em, считается от самого корневого элемента, 
+полезно при адаптивных размерах*/
+.outer2 {
+	font-size: 20px;
+}
+.outer2 p {
+	font-size: 2rem;
+}

@@ -1,0 +1,40 @@
+@import url(reset.css);
+
+section {
+	height: 300px;
+	border: 1px solid black;
+}
+.inner {
+	width: 50px;
+	height: 50px;
+}
+.static .inner {
+	background-color: red;
+	position: static;
+	margin: 20px;
+	/*top: 50px; не работает */
+}
+.relative .inner {
+	background-color: orange;
+	position: relative;
+	/*margin: 20px;*/
+	bottom: 50px; /*позиционируется относительно себя*/
+	left: 50px;
+}
+.absolute {
+	position: relative; /* позволяем дочерним элементам позиционироваться относительно родительского*/
+}
+.absolute .inner {
+	background-color: violet;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0px; 
+	left: 0px;
+}
+.fixed .inner {
+	background-color: green;
+	position: fixed;
+	bottom: 200px;/*позиционирование относительно всего окна браузера*/
+	right: 100px;
+}

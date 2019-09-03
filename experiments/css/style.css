@@ -1,0 +1,25 @@
+@import url(reset.css);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	background-color: yellow;
+	flex: 1 0 auto;
+}
+.footer {
+
+	height: 10vh;
+	background-color: red;
+	flex: 0 0 auto;
+}

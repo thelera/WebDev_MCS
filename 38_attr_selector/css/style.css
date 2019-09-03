@@ -1,0 +1,8 @@
+@import url(reset.css);
+
+img[src="https://g1.nh.ee/images/pix/1000x654/VFw7XyvOKdc/3fd7959adc3030e087-79404908.jpg"] {
+	width: 100px;
+}
+img[alt="summer"] {
+	width: 150px;
+}

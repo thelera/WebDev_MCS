@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@font-face {
+	src: url(../font/a_OldTyperNr%20Regular.ttf);
+	font-family: 'OldTypeNr';
+	font-weight: normal;
+}
+
+.heading h1 {
+	font-size: 50px;
+	font-weight: lighter;
+	font-style: italic;
+	font-family: 'Roboto Slab', serif;
+}
+.paragraph p {
+	font-family: 'PT Sans', sans-serif; 
+	font-variant-caps: small-caps; 	
+	text-indent: 50px;	
+}
+.paragraphTwo p {
+	font-family: 'Lora', serif;		
+}
+.paragraphThree p {
+	font-family: 'OldTypeNr';		
+}
